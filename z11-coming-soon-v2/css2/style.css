@@ -1,0 +1,1415 @@
+ html {height: 100%, width: 100%}
+ a{
+ 	color: #FFFFFF;
+
+ }
+
+body{
+	 	overflow-y:hidden;
+ 	overflow-x:hidden;
+}
+ a:hover {
+ 	color: #FFFFFF;
+ 	text-decoration: underline ;
+ 	text-decoration-color: #931375;
+ }
+
+ @media only screen and (min-width:960px){
+ 	/* styles for browsers larger than 960px; */
+ 	body {
+
+ 		background: url('../img2/fundover1.jpg') no-repeat center center fixed;
+ 		-webkit-background-size: cover;
+ 		-moz-background-size: cover;
+ 		background-size: cover;
+ 		-o-background-size: cover;
+ 		background-attachment:fixed;
+
+ 	}
+ 	.panel-heading{
+ 		width: 300px;
+ 	}
+ 	.panel-body{
+ 		width: 450px;
+ 		text-align: left;
+ 		margin-left: 2%;
+ 		background-color: rgba(147, 19, 117, 0.7); 
+ 		padding:2.5%;
+
+ 	}
+
+ 	#menu{
+
+ 		top:27%;
+ 		position: fixed;
+ 		color: #FFFFFF;
+ 		z-index: 999998;
+
+ 	}
+
+ 	.zed{
+ 		position: fixed;
+ 		right: 43%;
+ 		bottom:0%;
+ 		width: 170px;
+
+ 	}
+ 	.logo{
+ 		position: fixed;
+ 		left: 37%;
+ 		top:11%;
+ 		width: 280px;
+
+ 	}
+ 	.titulo-email{
+ 		position: fixed;
+ 		left: 37%;
+ 		top:45%;
+ 		font-size: 18.5px;
+ 		color: #FFFFFF;
+ 		font-family: Lato;
+ 	}
+ 	.titulo-menu{
+ 		padding: 4.5%;
+ 		font-size: 22px;
+ 		font-family: Lato;
+ 	}
+ 	.inpt-email{
+ 		position: fixed;
+ 		left: 37%;
+ 		top:50%;
+ 		width: 20%;
+ 		background-color: rgba(147, 19, 117, 0.7); 
+ 		border:0px;
+ 		color: #FFFFFF;
+ 		text-align: center;
+ 		padding: 0.3% 1% ;
+ 		font-family: Lato;
+ 		z-index: 999999;
+ 	}
+
+ 	.bnt-email{
+ 		background-color: rgba(255, 255, 255, 0);
+ 		position: fixed;
+ 		left: 58%;
+ 		top:50%;
+ 		width: 8%;
+ 		padding: 0.3% 1% ;
+ 		border: 0px;
+ 	}
+
+ 	.botao{
+ 		position: fixed;
+ 		left: 58%;
+ 		top:50%;
+ 		width: 8%;
+ 		padding: 1% 1%;
+ 		text-align: center;
+ 		font-family: Lato;
+ 		color: #931375;
+
+ 		border: 2px;
+ 		border-style: solid;
+ 		border-color: #931375;
+ 		color: #931375;
+
+ 	}
+
+ 	.texto-menu{
+ 		color: #931375;
+ 	}
+ 	.img-insta, .img-face{
+ 		display: inline-block;
+ 		position: fixed;
+ 		margin-top: 3%;
+ 		max-height: 8%;
+ 		max-width: 8%;
+ 		bottom: 3%;
+ 	}
+ 	.img-face{
+ 		right: 7%;
+ 	}
+ 	.img-insta{
+ 		right: 2%;
+ 	}
+
+ }
+ @media only screen and (min-width:1440px){
+ 	/* styles for browsers larger than 1440px; */
+ 	body {
+
+ 		background: url('../img2/fundo11.jpg') no-repeat center center fixed;
+ 		-webkit-background-size: cover;
+ 		-moz-background-size: cover;
+ 		background-size: cover;
+ 		-o-background-size: cover;
+ 		background-attachment:fixed;
+
+ 	}
+ 	.panel-heading{
+ 		width: 300px;
+ 	}
+ 	.panel-body{
+ 		width: 450px;
+ 		text-align: left;
+ 		margin-left: 2%;
+ 		background-color: rgba(147, 19, 117, 0.7); 
+ 		padding:2.5%;
+ 	}
+
+ 	#menu{
+
+ 		top:32%;
+ 		position: fixed;
+ 		color: #FFFFFF;
+ 		z-index: 999998;
+
+ 	}
+
+ 	.zed{
+ 		position: fixed;
+ 		right: 43%;
+ 		bottom:0%;
+ 		width: 170px;
+
+ 	}
+ 	.logo{
+ 		position: fixed;
+ 		left: 42%;
+ 		top:11%;
+ 		width: 280px;
+
+ 	}
+ 	.titulo-email{
+ 		position: fixed;
+ 		left: 37%;
+ 		top:45%;
+ 		font-size: 18.5px;
+ 		color: #FFFFFF;
+ 		font-family: Lato;
+ 	}
+ 	.titulo-menu{
+ 		padding: 4.5%;
+ 		font-size: 22px;
+ 		font-family: Lato;
+ 	}
+ 	.inpt-email{
+ 		position: fixed;
+ 		left: 37%;
+ 		top:50%;
+ 		width: 20%;
+ 		background-color: rgba(147, 19, 117, 0.7); 
+ 		border:0px;
+ 		color: #FFFFFF;
+ 		text-align: center;
+ 		padding: 0.3% 1% ;
+ 		font-family: Lato;
+ 		z-index: 999999;
+ 	}
+
+ 	.bnt-email{
+ 		background-color: rgba(255, 255, 255, 0);
+ 		position: fixed;
+ 		left: 58%;
+ 		top:50%;
+ 		width: 8%;
+ 		padding: 0.3% 1% ;
+ 		border: 0px;
+ 	}
+
+ 	.botao{
+ 		position: fixed;
+ 		left: 58%;
+ 		top:50%;
+ 		width: 8%;
+ 		padding: 1% 1%;
+ 		text-align: center;
+ 		font-family: Lato;
+ 		color: #931375;
+
+ 		border: 2px;
+ 		border-style: solid;
+ 		border-color: #931375;
+ 		color: #931375;
+
+ 	}
+
+ 	.texto-menu{
+ 		color: #931375;
+ 	}
+ 	.img-insta, .img-face{
+ 		display: inline-block;
+ 		position: fixed;
+ 		margin-top: 3%;
+ 		max-height: 8%;
+ 		max-width: 8%;
+ 		bottom: 3%;
+ 	}
+ 	.img-face{
+ 		right: 7%;
+ 	}
+ 	.img-insta{
+ 		right: 2%;
+ 	}
+
+ }
+ @media only screen and (min-width:2000px){
+ 	/* for sumo sized (mac) screens */
+ 	body {
+
+ 		background: url('../img2/fundo11.jpg') no-repeat center center fixed;
+ 		-webkit-background-size: cover;
+ 		-moz-background-size: cover;
+ 		background-size: cover;
+ 		-o-background-size: cover;
+ 		background-attachment:fixed;
+
+ 	}
+ 	.panel-heading{
+ 		width: 300px;
+ 	}
+ 	.panel-body{
+ 		width: 450px;
+ 		text-align: left;
+ 		margin-left: 2%;
+ 		background-color: rgba(147, 19, 117, 0.7); 
+ 		padding:2.5%;
+ 	}
+
+ 	#menu{
+
+ 		top:32%;
+ 		position: fixed;
+ 		color: #FFFFFF;
+ 		z-index: 999998;
+
+ 	}
+
+ 	.zed{
+ 		position: fixed;
+ 		right: 43%;
+ 		bottom:0%;
+ 		width: 170px;
+
+ 	}
+ 	.logo{
+ 		position: fixed;
+ 		left: 42%;
+ 		top:11%;
+ 		width: 280px;
+
+ 	}
+ 	.titulo-email{
+ 		position: fixed;
+ 		left: 37%;
+ 		top:45%;
+ 		font-size: 18.5px;
+ 		color: #FFFFFF;
+ 		font-family: Lato;
+ 	}
+ 	.titulo-menu{
+ 		padding: 4.5%;
+ 		font-size: 22px;
+ 		font-family: Lato;
+ 	}
+ 	.inpt-email{
+ 		position: fixed;
+ 		left: 37%;
+ 		top:50%;
+ 		width: 20%;
+ 		background-color: rgba(147, 19, 117, 0.7); 
+ 		border:0px;
+ 		color: #FFFFFF;
+ 		text-align: center;
+ 		padding: 0.3% 1% ;
+ 		font-family: Lato;
+ 		z-index: 999999;
+ 	}
+
+ 	.bnt-email{
+ 		background-color: rgba(255, 255, 255, 0);
+ 		position: fixed;
+ 		left: 58%;
+ 		top:50%;
+ 		width: 8%;
+ 		padding: 0.3% 1% ;
+ 		border: 0px;
+ 	}
+
+ 	.botao{
+ 		position: fixed;
+ 		left: 58%;
+ 		top:50%;
+ 		width: 8%;
+ 		padding: 1% 1%;
+ 		text-align: center;
+ 		font-family: Lato;
+ 		color: #931375;
+
+ 		border: 2px;
+ 		border-style: solid;
+ 		border-color: #931375;
+ 		color: #931375;
+
+ 	}
+
+ 	.texto-menu{
+ 		color: #931375;
+ 	}
+ 	.img-insta, .img-face{
+ 		display: inline-block;
+ 		position: fixed;
+ 		margin-top: 3%;
+ 		max-height: 8%;
+ 		max-width: 8%;
+ 		bottom: 3%;
+ 	}
+ 	.img-face{
+ 		right: 7%;
+ 	}
+ 	.img-insta{
+ 		right: 2%;
+ 	}
+
+ }
+ @media only screen and (max-device-width:480px){
+ 	/* styles for mobile browsers smaller than 480px; (iPhone) */
+
+ 	html {
+ 		background: url('../img2/fundo11.jpg') no-repeat center center fixed;
+ 		width: 100%;
+ 		height: 100%;
+ 		background-attachment:fixed;
+ 	} 
+ 	.panel-heading{
+ 		width: 100%;
+ 		height: 20%;
+ 	}
+
+ 	.panel-body{
+
+ 		text-align: left;
+ 		margin-left: 2%;
+ 		background-color: rgba(147, 19, 117, 0.7); 
+ 		padding:5%;
+ 	}
+
+ 	#menu{
+
+ 		top:30%;
+ 		position: absolute;
+ 		color: #FFFFFF;
+ 		z-index: 999998;
+
+ 	}
+
+ 	.zed{
+ 		position: absolute;
+ 		left: 33%;
+ 		top:85%;
+ 		width: 20%;
+ 		transform: translate(0%, 0%);
+ 		transition: .3s;
+
+ 	}
+
+ 	.logo{
+ 		position: absolute;
+ 		left:20%;
+ 		top: 2%;
+ 		width: 55%;
+ 		height: 20%;
+
+ 	}
+ 	.titulo-email{
+ 		position: absolute;
+ 		margin-left:2%;
+ 		top:59%;
+ 		font-size: 85%;
+ 		color: #FFFFFF;
+ 		font-family: Lato;
+ 		width: 100%;
+ 		transform: translate(0%, 0%);
+ 		transition: .3s;
+ 	}
+ 	.titulo-menu{
+ 		padding: 0.2%;
+ 		font-size: 90%;
+ 		font-family: Lato;
+ 		width: 100%;
+ 		height: 100%;
+ 	}
+ 	.inpt-email{
+ 		position: absolute;
+ 		margin-left:2%;
+ 		top:65%;
+ 		width: 205px;
+ 		height: 33px;
+ 		background-color: rgba(147, 19, 117, 0.7); 
+ 		border:0px;
+ 		color: #FFFFFF;
+ 		text-align: center;
+ 		padding: 8px 20px ;
+ 		font-family: Lato;
+ 		z-index: 999999;
+ 		transform: translate(0%, 0%);
+ 		transition: .3s;
+ 	}
+
+ 	.bnt-email{
+ 		background-color: rgba(255, 255, 255, 0);
+ 		position: absolute;
+ 		top:0%;
+ 		left: 0%;
+ 		width: 100%;
+ 		height: 100%;
+ 		padding: 5px 20px ;
+ 		border: 0px;
+ 		z-index: 99996;
+ 	}
+
+ 	.botao{
+ 		position: absolute;
+ 		top:65%;
+ 		left: 65%;
+ 		width: 100px;
+ 		height: 33px;
+ 		padding: 1% 1%;
+ 		text-align: center;
+ 		font-family: Lato;
+ 		color: #931375;
+ 		z-index: 99995;
+ 		border: 2px;
+ 		border-style: solid;
+ 		border-color: #931375;
+ 		color: #931375;
+ 		transform: translate(0%, 0%);
+ 		transition: .3s;
+
+ 	}
+ 	.bloco-de-baixo{
+ 		top:58%;
+ 		left: 0%;
+ 		position: absolute;
+ 		width: 100%;
+ 		height: 45%;
+ 		transform: translate(0%, 0%);
+ 		transition: .3s;
+
+ 	}
+ 	.texto-menu{
+ 		position: absolute;
+ 		color: #931375;
+ 		z-index: 99994;
+ 		top: 0%;
+ 		left: 0%;
+ 		text-align: center;
+ 		width: 100%;
+ 		height: 100%;
+ 	}
+ 	.img-insta, .img-face{
+ 		display: inline-block;
+ 		position: absolute;
+ 		margin-top: 3%;
+ 		max-height: 10%;
+ 		max-width: 10%;
+ 		top: 90%;
+
+ 	}
+ 	.img-face{
+ 		right: 17%;
+ 	}
+ 	.img-insta{
+ 		right: 3%;
+ 	}
+
+
+ }
+ /* different techniques for iPad screening */
+ @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
+ 	/* For portrait layouts only */
+
+ 	body {
+
+ 		background: url('../img2/fundo11.jpg') repeat center center fixed;
+ 		-webkit-background-size: cover;
+ 		-moz-background-size: cover;
+ 		background-size: cover;
+ 		-o-background-size: cover;
+ 		background-attachment:fixed;
+
+
+ 	}
+ 	.panel-heading{
+ 		width: 300px;
+ 	}
+ 	.panel-body{
+ 		width: 450px;
+ 		text-align: left;
+ 		margin-left: 2%;
+ 		background-color: rgba(147, 19, 117, 0.7); 
+ 		padding:2.5%;
+ 	}
+
+ 	#menu{
+
+ 		top:32%;
+ 		position: fixed;
+ 		color: #FFFFFF;
+ 		z-index: 999998;
+
+ 	}
+
+ 	.zed{
+ 		position: fixed;
+ 		right: 43%;
+ 		bottom:0%;
+ 		width: 170px;
+
+ 	}
+ 	.logo{
+ 		position: fixed;
+ 		left: 42%;
+ 		top:11%;
+ 		width: 280px;
+
+ 	}
+ 	.titulo-email{
+ 		position: fixed;
+ 		left: 37%;
+ 		top:45%;
+ 		font-size: 18.5px;
+ 		color: #FFFFFF;
+ 		font-family: Lato;
+ 	}
+ 	.titulo-menu{
+ 		padding: 4.5%;
+ 		font-size: 22px;
+ 		font-family: Lato;
+ 	}
+ 	.inpt-email{
+ 		position: fixed;
+ 		left: 37%;
+ 		top:50%;
+ 		width: 20%;
+ 		background-color: rgba(147, 19, 117, 0.7); 
+ 		border:0px;
+ 		color: #FFFFFF;
+ 		text-align: center;
+ 		padding: 0.3% 1% ;
+ 		font-family: Lato;
+ 		z-index: 999999;
+ 	}
+
+ 	.bnt-email{
+ 		background-color: rgba(255, 255, 255, 0);
+ 		position: fixed;
+ 		left: 58%;
+ 		top:50%;
+ 		width: 8%;
+ 		padding: 0.3% 1% ;
+ 		border: 0px;
+ 	}
+
+ 	.botao{
+ 		position: fixed;
+ 		left: 58%;
+ 		top:50%;
+ 		width: 8%;
+ 		padding: 1% 1%;
+ 		text-align: center;
+ 		font-family: Lato;
+ 		color: #931375;
+
+ 		border: 2px;
+ 		border-style: solid;
+ 		border-color: #931375;
+ 		color: #931375;
+
+ 	}
+
+ 	.texto-menu{
+ 		color: #931375;
+ 	}
+ 	.img-insta, .img-face{
+ 		display: inline-block;
+ 		position: fixed;
+ 		margin-top: 3%;
+ 		max-height: 8%;
+ 		max-width: 8%;
+ 		bottom: 3%;
+ 	}
+ 	.img-face{
+ 		right: 7%;
+ 	}
+ 	.img-insta{
+ 		right: 2%;
+ 	}
+
+ }
+
+ @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
+ 	/* For landscape layouts only */
+
+ 	html {
+ 		background: url('../img2/fundo11.jpg') no-repeat center center fixed;
+ 		width: 100%;
+ 		height: 100%;
+ 		background-attachment:fixed;
+ 	} 
+ 	
+
+ 	/*body {
+
+ 		background: url('../img2/fundo11.jpg') no-repeat center center fixed;
+ 		-webkit-background-size: cover;
+ 		-moz-background-size: cover;
+ 		background-size: cover;
+ 		-o-background-size: cover;
+ 		background-attachment:fixed;
+
+ 		}*/
+ 		.panel-heading{
+ 			width: 100%;
+ 		}
+ 		.panel-body{
+
+ 			text-align: left;
+ 			margin-left: 2%;
+ 			width: 75%;
+ 			font-size: 75%;
+ 			background-color: rgba(147, 19, 117, 0.7); 
+ 			padding-right: :5%;
+ 			padding-left: 5%;
+ 			padding-bottom: 5%;
+
+ 		}
+
+ 		#menu{
+ 			top:5%;
+ 			position: absolute;
+ 			color: #FFFFFF;
+ 			z-index: 999998;
+ 		}
+
+ 		.zed{
+ 			position: absolute;
+ 			left: 45%;
+ 			top:75%;
+ 			width: 10%;
+ 		}
+
+ 		.logo{
+ 			position: absolute;
+ 			left:38%;
+ 			top:5%;
+ 			width: 28%;
+
+ 		}
+ 		.titulo-email{
+ 			position: absolute;
+ 			margin-left:2%;
+ 			top:-25%;
+ 			font-size: 85%;
+ 			color: #FFFFFF;
+ 			font-family: Lato;
+ 			width: 50%;
+ 			left: 36%;
+ 		}
+ 	.titulo-menu{
+ 		padding: 0.2%;
+ 		font-size: 85%;
+ 		font-family: Lato;
+ 		width: 100%;
+ 		height: 80%;
+ 	}
+ 		.inpt-email{
+ 			position: absolute;
+ 			margin-left:2%;
+ 			top:50%;
+ 			width: 200px;
+ 			height: 32px;
+ 			left: 36%;
+ 			background-color: rgba(147, 19, 117, 0.7); 
+ 			border:0px;
+ 			color: #FFFFFF;
+ 			text-align: center;
+ 			padding: 0.3% 1% ;
+ 			font-family: Lato;
+ 			z-index: 999999;
+ 		}
+
+ 		.bnt-email{
+ 			background-color: rgba(255, 255, 255, 0);
+ 			position: absolute;
+ 			top:0%;
+ 			left: 0%;
+ 			width: 100%;
+ 			height: 100%;
+ 			padding: 0.3% 1% ;
+ 			border: 0px;
+ 			z-index: 99996;
+ 		}
+
+ 		.botao{
+ 			position: absolute;
+ 			top:50%;
+ 			left: 70%;
+ 			width: 90px;
+ 			height: 32px;
+ 			padding: 1% 1%;
+ 			text-align: center;
+ 			font-family: Lato;
+ 			color: #931375;
+ 			z-index: 99995;
+ 			border: 2px;
+ 			border-style: solid;
+ 			border-color: #931375;
+ 			color: #931375;
+ 		}
+ 		.bloco-de-baixo{
+ 			top:58%;
+ 			left: 0%;
+ 			position: absolute;
+ 			width: 100%;
+ 			height: 45%;
+ 		}
+ 		.texto-menu{
+ 			position: absolute;
+ 			color: #931375;
+ 			z-index: 99994;
+ 			top: 0%;
+ 			left: 0%;
+ 			text-align: center;
+ 			width: 100%;
+ 			height: 100%;
+ 		}
+ 		.img-insta, .img-face{
+ 			display: inline-block;
+ 			position: absolute;
+ 			margin-top: 3%;
+ 			max-height: 40px;
+ 			max-width: 40px;
+ 			top: 75%;
+ 		}
+ 		.img-face{
+ 			left: 80%;
+ 		}
+ 		.img-insta{
+ 			left: 88%;
+ 		}
+ 	}
+
+
+
+ 	/*iPhone 6 landscape*/
+ 	@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation : landscape) { 
+
+ 		html {
+ 			background: url('../img2/fundo11.jpg') no-repeat center center fixed;
+ 			width: 100%;
+ 			height: 100%;
+ 			background-attachment:fixed;
+ 		} 
+
+
+ 	/*body {
+
+ 		background: url('../img2/fundo11.jpg') no-repeat center center fixed;
+ 		-webkit-background-size: cover;
+ 		-moz-background-size: cover;
+ 		background-size: cover;
+ 		-o-background-size: cover;
+ 		background-attachment:fixed;
+
+ 		}*/
+ 		.panel-heading{
+ 			width: 100%;
+ 		}
+ 		.panel-body{
+
+ 			text-align: left;
+ 			margin-left: 2%;
+ 			width: 75%;
+ 			font-size: 75%;
+ 			background-color: rgba(147, 19, 117, 0.7); 
+ 			padding-right: :5%;
+ 			padding-left: 5%;
+ 			padding-bottom: 5%;
+
+ 		}
+
+ 		#menu{
+ 			top:5%;
+ 			position: absolute;
+ 			color: #FFFFFF;
+ 			z-index: 999998;
+ 		}
+
+ 		.zed{
+ 			position: absolute;
+ 			left: 45%;
+ 			top:75%;
+ 			width: 10%;
+ 		}
+
+ 		.logo{
+ 			position: absolute;
+ 			left:38%;
+ 			top:5%;
+ 			width: 28%;
+
+ 		}
+ 		.titulo-email{
+ 			position: absolute;
+ 			margin-left:2%;
+ 			top:-25%;
+ 			font-size: 85%;
+ 			color: #FFFFFF;
+ 			font-family: Lato;
+ 			width: 50%;
+ 			left: 36%;
+ 		}
+ 		.titulo-menu{
+ 			padding: 0.1%;
+ 			font-size: 90%;
+ 			font-family: Lato;
+ 			width: 100%;
+ 			height: 100%;
+ 		}
+ 		.inpt-email{
+ 			position: absolute;
+ 			margin-left:2%;
+ 			top:50%;
+ 			width: 200px;
+ 			height: 32px;
+ 			left: 36%;
+ 			background-color: rgba(147, 19, 117, 0.7); 
+ 			border:0px;
+ 			color: #FFFFFF;
+ 			text-align: center;
+ 			padding: 0.3% 1% ;
+ 			font-family: Lato;
+ 			z-index: 999999;
+ 		}
+
+ 		.bnt-email{
+ 			background-color: rgba(255, 255, 255, 0);
+ 			position: absolute;
+ 			top:0%;
+ 			left: 0%;
+ 			width: 100%;
+ 			height: 100%;
+ 			padding: 0.3% 1% ;
+ 			border: 0px;
+ 			z-index: 99996;
+ 		}
+
+ 		.botao{
+ 			position: absolute;
+ 			top:50%;
+ 			left: 70%;
+ 			width: 90px;
+ 			height: 32px;
+ 			padding: 1% 1%;
+ 			text-align: center;
+ 			font-family: Lato;
+ 			color: #931375;
+ 			z-index: 99995;
+ 			border: 2px;
+ 			border-style: solid;
+ 			border-color: #931375;
+ 			color: #931375;
+ 		}
+ 		.bloco-de-baixo{
+ 			top:58%;
+ 			left: 0%;
+ 			position: absolute;
+ 			width: 100%;
+ 			height: 45%;
+ 		}
+ 		.texto-menu{
+ 			position: absolute;
+ 			color: #931375;
+ 			z-index: 99994;
+ 			top: 0%;
+ 			left: 0%;
+ 			text-align: center;
+ 			width: 100%;
+ 			height: 100%;
+ 		}
+ 		.img-insta, .img-face{
+ 			display: inline-block;
+ 			position: absolute;
+ 			margin-top: 3%;
+ 			max-height: 40px;
+ 			max-width: 40px;
+ 			top: 75%;
+ 		}
+ 		.img-face{
+ 			left: 80%;
+ 		}
+ 		.img-insta{
+ 			left: 88%;
+ 		}
+ 	}
+
+ 	/*iPhone 6+ landscape*/
+ 	@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation : landscape) { 
+
+ 		html {
+ 			background: url('../img2/fundo11.jpg') no-repeat center center fixed;
+ 			width: 100%;
+ 			height: 100%;
+ 			background-attachment:fixed;
+ 		} 
+
+
+ 	/*body {
+
+ 		background: url('../img2/fundo11.jpg') no-repeat center center fixed;
+ 		-webkit-background-size: cover;
+ 		-moz-background-size: cover;
+ 		background-size: cover;
+ 		-o-background-size: cover;
+ 		background-attachment:fixed;
+
+ 		}*/
+ 		.panel-heading{
+ 			width: 100%;
+ 		}
+ 		.panel-body{
+
+ 			text-align: left;
+ 			margin-left: 2%;
+ 			width: 75%;
+ 			font-size: 75%;
+ 			background-color: rgba(147, 19, 117, 0.7); 
+ 			padding-right: :5%;
+ 			padding-left: 5%;
+ 			padding-bottom: 5%;
+
+ 		}
+
+ 		#menu{
+ 			top:5%;
+ 			position: absolute;
+ 			color: #FFFFFF;
+ 			z-index: 999998;
+ 		}
+
+ 		.zed{
+ 			position: absolute;
+ 			left: 45%;
+ 			top:75%;
+ 			width: 10%;
+ 		}
+
+ 		.logo{
+ 			position: absolute;
+ 			left:38%;
+ 			top:5%;
+ 			width: 28%;
+
+ 		}
+ 		.titulo-email{
+ 			position: absolute;
+ 			margin-left:2%;
+ 			top:-25%;
+ 			font-size: 85%;
+ 			color: #FFFFFF;
+ 			font-family: Lato;
+ 			width: 50%;
+ 			left: 36%;
+ 		}
+ 	.titulo-menu{
+ 		padding: 0.2%;
+ 		font-size: 85%;
+ 		font-family: Lato;
+ 		width: 100%;
+ 		height: 80%;
+ 	}
+ 		.inpt-email{
+ 			position: absolute;
+ 			margin-left:2%;
+ 			top:50%;
+ 			width: 200px;
+ 			height: 32px;
+ 			left: 36%;
+ 			background-color: rgba(147, 19, 117, 0.7); 
+ 			border:0px;
+ 			color: #FFFFFF;
+ 			text-align: center;
+ 			padding: 0.3% 1% ;
+ 			font-family: Lato;
+ 			z-index: 999999;
+ 		}
+
+ 		.bnt-email{
+ 			background-color: rgba(255, 255, 255, 0);
+ 			position: absolute;
+ 			top:0%;
+ 			left: 0%;
+ 			width: 100%;
+ 			height: 100%;
+ 			padding: 0.3% 1% ;
+ 			border: 0px;
+ 			z-index: 99996;
+ 		}
+
+ 		.botao{
+ 			position: absolute;
+ 			top:50%;
+ 			left: 70%;
+ 			width: 90px;
+ 			height: 32px;
+ 			padding: 1% 1%;
+ 			text-align: center;
+ 			font-family: Lato;
+ 			color: #931375;
+ 			z-index: 99995;
+ 			border: 2px;
+ 			border-style: solid;
+ 			border-color: #931375;
+ 			color: #931375;
+ 		}
+ 		.bloco-de-baixo{
+ 			top:58%;
+ 			left: 0%;
+ 			position: absolute;
+ 			width: 100%;
+ 			height: 45%;
+ 		}
+ 		.texto-menu{
+ 			position: absolute;
+ 			color: #931375;
+ 			z-index: 99994;
+ 			top: 0%;
+ 			left: 0%;
+ 			text-align: center;
+ 			width: 100%;
+ 			height: 100%;
+ 		}
+ 		.img-insta, .img-face{
+ 			display: inline-block;
+ 			position: absolute;
+ 			margin-top: 3%;
+ 			max-height: 40px;
+ 			max-width: 40px;
+ 			top: 75%;
+ 		}
+ 		.img-face{
+ 			left: 80%;
+ 		}
+ 		.img-insta{
+ 			left: 88%;
+ 		}
+ 	}
+
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 2){
+ 	/* styles for mobile browsers smaller than 480px; (iPhone) */
+
+ 	html {
+ 		background: url('../img2/fundo11.jpg') no-repeat center center fixed;
+ 		width: 100%;
+ 		height: 100%;
+ 		background-attachment:fixed;
+ 	} 
+ 	.panel-heading{
+ 		width: 100%;
+ 		height: 20%;
+ 	}
+
+ 	.panel-body{
+
+ 		text-align: left;
+ 		margin-left: 2%;
+ 		background-color: rgba(147, 19, 117, 0.7); 
+ 		padding:5%;
+ 	}
+
+ 	#menu{
+
+ 		top:30%;
+ 		position: absolute;
+ 		color: #FFFFFF;
+ 		z-index: 999998;
+
+ 	}
+
+ 	.zed{
+ 		position: absolute;
+ 		left: 33%;
+ 		top:85%;
+ 		width: 20%;
+ 		transform: translate(0%, 0%);
+ 		transition: .3s;
+
+ 	}
+
+ 	.logo{
+ 		position: absolute;
+ 		left:20%;
+ 		top: 2%;
+ 		width: 55%;
+ 		height: 20%;
+
+ 	}
+ 	.titulo-email{
+ 		position: absolute;
+ 		margin-left:2%;
+ 		top:59%;
+ 		font-size: 85%;
+ 		color: #FFFFFF;
+ 		font-family: Lato;
+ 		width: 100%;
+ 		transform: translate(0%, 0%);
+ 		transition: .3s;
+ 	}
+ 	.titulo-menu{
+ 		padding: 0.2%;
+ 		font-size: 85%;
+ 		font-family: Lato;
+ 		width: 100%;
+ 		height: 80%;
+ 	}
+ 	.inpt-email{
+ 		position: absolute;
+ 		margin-left:2%;
+ 		top:65%;
+ 		width: 205px;
+ 		height: 33px;
+ 		background-color: rgba(147, 19, 117, 0.7); 
+ 		border:0px;
+ 		color: #FFFFFF;
+ 		text-align: center;
+ 		padding: 8px 20px ;
+ 		font-family: Lato;
+ 		z-index: 999999;
+ 		transform: translate(0%, 0%);
+ 		transition: .3s;
+ 	}
+
+ 	.bnt-email{
+ 		background-color: rgba(255, 255, 255, 0);
+ 		position: absolute;
+ 		top:0%;
+ 		left: 0%;
+ 		width: 100%;
+ 		height: 100%;
+ 		padding: 5px 20px ;
+ 		border: 0px;
+ 		z-index: 99996;
+ 	}
+
+ 	.botao{
+ 		position: absolute;
+ 		top:65%;
+ 		left: 65%;
+ 		width: 100px;
+ 		height: 33px;
+ 		padding: 1% 1%;
+ 		text-align: center;
+ 		font-family: Lato;
+ 		color: #931375;
+ 		z-index: 99995;
+ 		border: 2px;
+ 		border-style: solid;
+ 		border-color: #931375;
+ 		color: #931375;
+ 		transform: translate(0%, 0%);
+ 		transition: .3s;
+
+ 	}
+ 	.bloco-de-baixo{
+ 		top:58%;
+ 		left: 0%;
+ 		position: absolute;
+ 		width: 100%;
+ 		height: 45%;
+ 		transform: translate(0%, 0%);
+ 		transition: .3s;
+
+ 	}
+ 	.texto-menu{
+ 		position: absolute;
+ 		color: #931375;
+ 		z-index: 99994;
+ 		top: 0%;
+ 		left: 0%;
+ 		text-align: center;
+ 		width: 100%;
+ 		height: 100%;
+ 	}
+ 	.img-insta, .img-face{
+ 		display: inline-block;
+ 		position: absolute;
+ 		margin-top: 3%;
+ 		max-height: 10%;
+ 		max-width: 10%;
+ 		top: 90%;
+
+ 	}
+ 	.img-face{
+ 		right: 17%;
+ 	}
+ 	.img-insta{
+ 		right: 3%;
+ 	}
+
+
+ }
+
+ @media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3){
+ 	/* styles for mobile browsers smaller than 480px; (iPhone) */
+
+ 	html {
+ 		background: url('../img2/fundo11.jpg') no-repeat center center fixed;
+ 		width: 100%;
+ 		height: 100%;
+ 		background-attachment:fixed;
+ 	} 
+ 	.panel-heading{
+ 		width: 100%;
+ 		height: 20%;
+ 	}
+
+ 	.panel-body{
+
+ 		text-align: left;
+ 		margin-left: 2%;
+ 		background-color: rgba(147, 19, 117, 0.7); 
+ 		padding:5%;
+ 	}
+
+ 	#menu{
+
+ 		top:30%;
+ 		position: absolute;
+ 		color: #FFFFFF;
+ 		z-index: 999998;
+
+ 	}
+
+ 	.zed{
+ 		position: absolute;
+ 		left: 33%;
+ 		top:85%;
+ 		width: 20%;
+ 		transform: translate(0%, 0%);
+ 		transition: .3s;
+
+ 	}
+
+ 	.logo{
+ 		position: absolute;
+ 		left:20%;
+ 		top: 2%;
+ 		width: 55%;
+ 		height: 20%;
+
+ 	}
+ 	.titulo-email{
+ 		position: absolute;
+ 		margin-left:2%;
+ 		top:59%;
+ 		font-size: 85%;
+ 		color: #FFFFFF;
+ 		font-family: Lato;
+ 		width: 100%;
+ 		transform: translate(0%, 0%);
+ 		transition: .3s;
+ 	}
+ 	.titulo-menu{
+ 		padding: 0.2%;
+ 		font-size: 90%;
+ 		font-family: Lato;
+ 		width: 100%;
+ 		height: 100%;
+ 	}
+ 	.inpt-email{
+ 		position: absolute;
+ 		margin-left:2%;
+ 		top:65%;
+ 		width: 190px;
+ 		height: 33px;
+ 		background-color: rgba(147, 19, 117, 0.7); 
+ 		border:0px;
+ 		color: #FFFFFF;
+ 		text-align: center;
+ 		padding: 8px 20px ;
+ 		font-family: Lato;
+ 		z-index: 999999;
+ 		transform: translate(0%, 0%);
+ 		transition: .3s;
+ 	}
+
+ 	.bnt-email{
+ 		background-color: rgba(255, 255, 255, 0);
+ 		position: absolute;
+ 		top:0%;
+ 		left: 0%;
+ 		width: 100%;
+ 		height: 100%;
+ 		padding: 5px 20px ;
+ 		border: 0px;
+ 		z-index: 99996;
+ 	}
+
+ 	.botao{
+ 		position: absolute;
+ 		top:65%;
+ 		left: 65%;
+ 		width: 100px;
+ 		height: 33px;
+ 		padding: 1% 1%;
+ 		text-align: center;
+ 		font-family: Lato;
+ 		color: #931375;
+ 		z-index: 99995;
+ 		border: 2px;
+ 		border-style: solid;
+ 		border-color: #931375;
+ 		color: #931375;
+ 		transform: translate(0%, 0%);
+ 		transition: .3s;
+
+ 	}
+ 	.bloco-de-baixo{
+ 		top:58%;
+ 		left: 0%;
+ 		position: absolute;
+ 		width: 100%;
+ 		height: 45%;
+ 		transform: translate(0%, 0%);
+ 		transition: .3s;
+
+ 	}
+ 	.texto-menu{
+ 		position: absolute;
+ 		color: #931375;
+ 		z-index: 99994;
+ 		top: 0%;
+ 		left: 0%;
+ 		text-align: center;
+ 		width: 100%;
+ 		height: 100%;
+ 	}
+ 	.img-insta, .img-face{
+ 		display: inline-block;
+ 		position: absolute;
+ 		margin-top: 3%;
+ 		max-height: 10%;
+ 		max-width: 10%;
+ 		top: 90%;
+
+ 	}
+ 	.img-face{
+ 		right: 17%;
+ 	}
+ 	.img-insta{
+ 		right: 3%;
+ 	}
+
+
+ }

@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+
+    <style>
+
+
+    
+
+        #content {
+            position: absolute;
+        }
+
+        .img-parallax {
+            position: fixed;
+            width: 100%;
+            height: 1000px;
+        }
+
+        #layer_1 {
+            background: url("img/10.png") no-repeat 0px 200px;
+        }
+
+        #layer_2 {
+            background: url("img/owl_1.png") no-repeat 600px 400px;
+        }
+
+        #layer_3 {
+            background: url("img/15.png") no-repeat 700px 10px;
+        }
+
+        #layer_4 {
+            background: url("img/8.png") no-repeat -120px 400px;
+        }
+    </style>
+
+    <script>
+
+        function parallax(){
+            // Declarando as var.
+            var layer_1 = document.getElementById('layer_1');
+            var layer_2 = document.getElementById('layer_2');
+            var layer_3 = document.getElementById('layer_3');
+            var layer_4 = document.getElementById('layer_4');
+
+            // Aplicando a posição
+            layer_1.style.left = -(window.pageXOffset / 3) + 'px';
+            layer_2.style.left = -(window.pageXOffset / 6) + 'px';
+            layer_3.style.left = -(window.pageXOffset / 7) + 'px';
+            layer_4.style.left = -(window.pageXOffset / 7) + 'px';
+        }
+        window.addEventListener("scroll", parallax, false);
+		var vid = document.getElementById("bgvid");
+var pauseButton = document.querySelector("#polina button");
+
+if (window.matchMedia('(prefers-reduced-motion)').matches) {
+    vid.removeAttribute("autoplay");
+    vid.pause();
+    pauseButton.innerHTML = "Paused";
+}
+
+function vidFade() {
+  vid.classList.add("stopfade");
+}
+
+vid.addEventListener('ended', function()
+{
+// only functional if "loop" is removed 
+vid.pause();
+// to capture IE10
+vidFade();
+}); 
+
+
+pauseButton.addEventListener("click", function() {
+  vid.classList.toggle("stopfade");
+  if (vid.paused) {
+    vid.play();
+    pauseButton.innerHTML = "Pause";
+  } else {
+    vid.pause();
+    pauseButton.innerHTML = "Paused";
+  }
+})
+
+
+
+    </script>
+
+
+
+</head>
+<body>
+    <header>
+	<div class="video-background">
+    <div class="video-foreground">
+    
+ 
+  <iframe src="https://www.youtube.com/embed/2gNJUrFhy5A?controls=0&showinfo=0&rel=0&autoplay=1&loop=1&playlist=1hfC0hfTZbE" frameborder="0" allowfullscreen></iframe>
+  
+  
+   
+   </div>
+  </div>
+        <div class="menu">
+            <nav class="navbar navbar-expand-lg navbar-light ">
+              <a class="navbar-brand" href="#">Horiz.on</a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="#home">Home<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#sobre">Sobre</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#institucional">Video</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contato">Contato</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</div>
+</header>
+
+    <section>
+      <div id="layer_3" class="img-parallax"></div>
+      <div id="layer_4" class="img-parallax"></div>
+      <div id="layer_1" class="img-parallax"></div>
+      <div id="layer_2" class="img-parallax"></div>
+    </section>
+<div class="container-fluid pt-3">
+    <div class="row flex-row flex-sm-nowrap pt-3">
+        <div class="col-sm-12 col-md-12">
+            <article class="seccao" id="home">
+                <figure>
+                    <img class="img-logo" src="img/logo-tmp.png">
+                </figure>
+            </article>
+        </div>
+        <div class="col-sm-12 col-md-12">
+            <article class="seccao" id="sobre">
+                <h1>Horiz.on</h1>
+                <p>A Horiz.On surgiu com um conceito virtual que esta ganhando cada dia mais espaço na cultura mundial<br/>
+                    somos uma agencia completamente virtual, o que nos permite estarmos mais proximos de nossos clientes
+                    conseguindo reagir muito rapido ao mundo digital.
+                </p>
+            </article>
+        </div>
+        <div class="col-sm-12 col-md-12">
+            <article class="seccao" id="institucional">teste3</article>
+        </div>
+        <div class="col-sm-12 col-md-12">
+            <article class="seccao2" id="contato">
+                <div class="row">
+                    <div class="col-sm-3 col-md-6">
+                      <!-- Form contato -->
+                      <div class="title-form"><span>Envie-nos uma mesagem</span></div>
+                      <div class="formulario">
+                          <form role="form">
+                              <div class="form-group">
+                                <input type="text" class="form-control" id="nome" required>
+                                <span class="form-highlight"></span>
+                                <span class="form-bar"></span>
+                                <label class="float-label" for="nome"> Nome: </label>
+                            </div>
+
+                            <div class="form-group">
+                                <input type="email" class="form-control" id="email" required>
+                                <span class="form-highlight"></span>
+                                <span class="form-bar"></span>
+                                <label class="float-label" for="email"> Email: </label>
+                            </div>
+
+                            <div class="form-group">
+                                <textarea type="text" class="form-control" id="mesagem" required></textarea>
+                                <span class="form-highlight"></span>
+                                <span class="form-bar"></span>
+                                <label class="float-label" for="mesagem"> Escreva sua mensagem: </label>
+
+                            </div>
+                            <button type="submit" class=" bnt-person btn btn-raised btn-default ripple-effect">Enviar</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-sm-3 col-md-3">
+                  <div class="flip">
+                    <div class="card"> 
+                      <div class="face front"> 
+                        <div class="inner">   
+                           <figure>
+                              <img class="img-contato" src="img/carol-flip.jpg">
+                          </figure>
+                      </div>
+                  </div> 
+                  <div class="face back"> 
+                    <div class="inner text-center"> 
+                      <h3>Ana Resende</h3>
+                      <p>Formada em publicidade e propagada pelo Uni-BH, fez mestrado UCD MICHAEL SMURFIT GRADUATE BUSINESS SCHOOL,Dublin Irlanda</p>
+                      <!--<button type="button" class="btn btn-default"></button>-->
+                  </div>
+              </div>
+          </div>   
+      </div>
+  </div>
+
+  <div class="col-sm-3 col-md-3">
+      <div class="flip">
+        <div class="card"> 
+          <div class="face front"> 
+            <div class="inner">  
+                <figure>
+                  <img class="img-contato" src="img/pedro-flip.jpg">
+              </figure>
+          </div>
+      </div> 
+      <div class="face back"> 
+        <div class="inner text-center"> 
+            <h3>Pedro</h3>
+            <p>Formado em design com muita experiencia em grandes projetos em grandes empresas</p>
+        </div>
+    </div>
+</div>   
+</div>
+</div>
+</div>
+
+</article>
+</div>
+
+
+</div>
+</div>
+
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="popper/dist/popper.js"></script>
+<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/form.js"></script>
+</body>
+</html>
